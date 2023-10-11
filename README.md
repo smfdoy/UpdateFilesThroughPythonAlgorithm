@@ -44,7 +44,7 @@ The <i>for</i> loop in Python repeats code for a specified sequence. The overall
  My algorithm requires removing any IP address from the allow list, <i>ip_addresses</i>, that is also contained in <i>remove_list</i>.  Because there were not any duplicates in <i>ip_addresses</i>, I was able to use the following code to do this:<br/>
 <br/> <img src="https://i.imgur.com/cHWLqAg.png" height="80%" width="80%" alt=/>
 <br />
-First, within my <i>for loop</i>, I created a conditional that evaluated whether or not the loop variable <i>element</i>> was found in the <i>ip_addresses</i> list. I did this because applying <i>.remove()></i> to elements that were not found in <i>ip_addresses</i> would result in an error.  <br />
+First, within my <i>for</i> loop, I created a conditional that evaluated whether or not the loop variable <i>element</i> was found in the <i>ip_addresses</i> list. I did this because applying <i>.remove()</i> to elements that were not found in <i>ip_addresses</i> would result in an error.  <br />
 <br/> Then, within that conditional, I applied <i>.remove()</i> to <i>ip_addresses</i>. I passed in the loop variable <i>element</i> as the argument so that each IP address that was in the <i>remove_list</i> would be removed from <i>ip_addresses</i>.<br/>
 <br/>
 <b>Update the file with the revised list of IP addresses</b>  
